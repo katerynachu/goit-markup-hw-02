@@ -60,6 +60,9 @@ body{
 .menu_link:focus{
     color: var(--hover);
 }
+.menu_link:active {
+    color: var(--hover);
+}
 .contacts{
     font-style: normal;
 }
