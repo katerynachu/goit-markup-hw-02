@@ -53,13 +53,8 @@ body{
     color: var(--dark-grey);
 
 }
-.menu_link:hover{
-    color: var(--hover);
-}
+.menu_link:hover,
 .menu_link:focus{
-    color: var(--hover);
-}
-.menu_link:active {
     color: var(--hover);
 }
 .contacts{
