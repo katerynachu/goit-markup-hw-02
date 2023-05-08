@@ -63,7 +63,8 @@ body{
 .contacts_link{
     color: var(--main-color);
 }
-.contacts a:hover{
+.contacts a:hover,
+.contacts a:focus{
         color: var(--hover);
 }
 .hero{
