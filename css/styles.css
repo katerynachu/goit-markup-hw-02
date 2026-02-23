@@ -91,14 +91,13 @@ body {
   background-color: var(--hover);
 }
 
-.h3 {
+.subtitle {
   color: var(--dark-grey);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
 .title {
   color: var(--dark-grey);
   font-weight: 700;
