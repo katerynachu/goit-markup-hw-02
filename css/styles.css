@@ -1,0 +1,153 @@
+:root {
+  /* COLORS */
+  --main-color: #434455;
+  --dark-grey: #2e2f42;
+  --blue: #4d5ae5;
+  --bg-grey: #f4f4fd;
+  --white: #ffffff;
+  --hover: #404bbf;
+  --border: #e7e9fc;
+
+  /* FONT-FAMILY */
+  --roboto: 'Roboto', sans-serif;
+  --raleway: 'Raleway', sans-serif;
+}
+/* DEFAULT */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+body {
+  background-color: var(--white);
+  color: var(--main-color);
+  font-family: var(--roboto);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header {
+  border-bottom: 1px solid var(--border);
+}
+.logo {
+  font-family: var(--raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--blue);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo {
+  color: var(--dark-grey);
+}
+.header-logo > span {
+  color: var(--blue);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-grey);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--hover);
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  color: var(--main-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--hover);
+}
+.hero {
+  background-color: var(--dark-grey);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  text-align: center;
+}
+.hero-btn {
+  background-color: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: var(--white);
+  font-family: var(--roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover);
+}
+
+.h3 {
+  color: var(--dark-grey);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.h2 {
+  color: var(--dark-grey);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.our-team-section {
+  background-color: var(--bg-grey);
+}
+
+.our-team-item {
+  background-color: var(--white);
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-role {
+  text-align: center;
+}
+.our-team-name {
+  text-align: center;
+}
+.footer {
+  background-color: var(--dark-grey);
+}
+.footer-logo {
+  color: var(--bg-grey);
+}
+.footer-corp {
+  color: var(--bg-grey);
+}
