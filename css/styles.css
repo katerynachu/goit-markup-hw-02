@@ -19,9 +19,7 @@
 .list {
   list-style-type: none;
 }
-.visually-hidden {
-  display: none;
-}
+
 body {
   background-color: var(--white);
   color: var(--main-color);
@@ -110,7 +108,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.advantages-h3 {
+.advantages-h3{
   color: var(--dark-grey);
   font-weight: 500;
   font-size: 20px;
@@ -135,7 +133,20 @@ body {
   text-align: center;
 }
 .our-team-name {
-  text-align: center;
+    text-align: center;
+  color: var(--dark-grey);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+}
+.portfolio-item-h3 {
+  color: var(--dark-grey);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .footer {
   background-color: var(--dark-grey);
