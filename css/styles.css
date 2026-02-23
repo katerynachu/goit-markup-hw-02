@@ -99,7 +99,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.h2 {
+.title {
   color: var(--dark-grey);
   font-weight: 700;
   font-size: 36px;
